@@ -1,0 +1,25 @@
+{% extends "page_app/global/index.html" %}
+
+{% load static %}
+
+{% block title %}Nossos Serviços{% endblock title %}
+
+{% block content %}
+<div class="container">
+    <h1 class="mt-4">Entre em Contato Conosco</h1>
+    <p>Não perca tempo! Estamos aqui para ajudar no seu caminho para o sucesso financeiro. Entre em contato pelos meios
+        abaixo:</p>
+
+    <div class="contact-info">
+        <a href="mailto:contato@jjinvestimentos.com.br" class="d-block"> <!--Corrigido a informação conforme o cliente solicitou-->
+            <i class="far fa-envelope mr-2"></i>contato@jjinvestimentos.com.br
+        </a>
+        <a href="http://wa.me/12526804187?text=Ol%C3%A1%2C%20tenho%20interesse%20em%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20investimentos.%20Estou%20ansioso%20para%20aprender." target="_blank" class="d-block">
+            <i class="fab fa-whatsapp mr-2"></i>+1 (25) 2680 4187 <!--Corrigido a informação conforme o cliente solicitou-->
+        </a>
+        <a href="tel:+554132232112" class="d-block"> <!--Corrigido a informação conforme o cliente solicitou-->
+            <i class="fas fa-phone mr-2"></i>+55 (41) 3223 2112
+        </a>
+    </div>
+</div>
+{% endblock content %}
